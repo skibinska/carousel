@@ -11,24 +11,6 @@
     'bear',
     'monkey'
   ].forEach(function (avatar) {
-    var node = $('.' + avatar);
-    var timeout;
-    if (!node ) return;
-    node.on('tap', function () {
-      animateCheckmark();
-      clearTimeout(timeout);
-      timeout = setTimeout(function () {
-        window.location.href = 'introduction.html';
-      }, 1500);
-      console.log('hello');
-    });
-  });
-
-  [
-    'lion',
-    'bear',
-    'monkey'
-  ].forEach(function (avatar) {
     var node = document.getElementsByClassName(avatar)[0];
     var timeout;
     if (!node ) return;
