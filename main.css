@@ -1,0 +1,9 @@
+.checkmark {
+  position: relative;
+  bottom: -10px;
+  height: 80px;
+}
+
+.checkmark path {
+  opacity: 0;
+}
