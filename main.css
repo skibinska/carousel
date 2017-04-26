@@ -1,3 +1,9 @@
+body {
+  max-width: 768px;
+  margin: auto;
+  text-align: center;
+}
+
 .checkmark {
   position: relative;
   bottom: -10px;
@@ -6,4 +12,9 @@
 
 .checkmark path {
   opacity: 0;
+}
+
+.sleeping-lion {
+  width: 300px;
+  margin: 50px auto;
 }
